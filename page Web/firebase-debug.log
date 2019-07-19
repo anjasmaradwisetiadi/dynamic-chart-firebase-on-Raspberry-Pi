@@ -1,0 +1,41 @@
+[debug] [2019-01-27T21:12:30.699Z] ----------------------------------------------------------------------
+[debug] [2019-01-27T21:12:30.712Z] Command:       C:\Program Files\nodejs\node.exe C:\firebase-tools\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2019-01-27T21:12:30.713Z] CLI Version:   3.18.2
+[debug] [2019-01-27T21:12:30.713Z] Platform:      win32
+[debug] [2019-01-27T21:12:30.713Z] Node Version:  v8.11.1
+[debug] [2019-01-27T21:12:30.714Z] Time:          Sun Jan 27 2019 21:12:30 GMT+0000 (GMT Standard Time)
+[debug] [2019-01-27T21:12:30.714Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-27T21:12:30.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-27T21:12:30.765Z] > authorizing via signed-in user
+[debug] [2019-01-27T21:12:30.777Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pyrebase-anjas-54a73  
+  
+ Sun Jan 27 2019 21:12:30 GMT+0000 (GMT Standard Time)
+[debug] [2019-01-27T21:12:32.072Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-27T21:12:32.076Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pyrebase-anjas-54a73/tokens  
+  
+ Sun Jan 27 2019 21:12:32 GMT+0000 (GMT Standard Time)
+[debug] [2019-01-27T21:12:33.993Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pyrebase-anjas-54a73'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2019-01-27T21:12:41.008Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pyrebase-anjas-54a73/uploads/-LXEgtM1lQv8zDRjNgJv?fileCount=706&message=  
+  
+ Sun Jan 27 2019 21:12:41 GMT+0000 (GMT Standard Time)
+[debug] [2019-01-27T21:13:47.474Z] <<< HTTP RESPONSE 410
+[debug] [2019-01-27T21:13:47.474Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2019-01-27T21:13:47.477Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (C:\firebase-tools\node_modules\firebase-tools\lib\responseToError.js:10:13)
+    at Request._callback (C:\firebase-tools\node_modules\firebase-tools\lib\api.js:45:25)
+    at Request.self.callback (C:\firebase-tools\node_modules\firebase-tools\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\firebase-tools\node_modules\firebase-tools\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\firebase-tools\node_modules\firebase-tools\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+[error] 
+[error] Error: An unexpected error has occurred.

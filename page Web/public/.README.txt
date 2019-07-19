@@ -1,0 +1,31 @@
+LiveChat Source Code:
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 10079443;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/10079443/">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
+
+Note:
+Firebase Configuration dashboard.html and other is diferent
+
+=============== KODE PIN RASPBERRY PI ===============
+Hitam         |   11  | Lampu                   | 1
+Coklat        |   13  | Kipas Suhu / Pendingin  | 4
+Ungu          |   15  | Kipas Sirkulasi         | 3
+Biru          |   16  | Convayer                | 2
+Orange        |   18  | Feeding                 | 5
+Merah         |   8   | Lampu Suhu / Pemanas    | 6
+Hijau Panjang |   7   | DHT11 (Suhu)            | -
+Putih         |   12  | Servo                   | -
+=====================================================

@@ -1,0 +1,15 @@
+.sitel{
+	font-family:georgia,garamond,serif; 
+	font-weight:bold; 
+	font-size: 18px;  
+	color:#FFFFFF;
+}
+.Menu_pojok{
+
+	background-color: #00ccff; 
+	border: none; 
+	width:40px; 
+	font-size: 24px; 
+	color: #FFFFFF; 
+	height: 40px;
+}
